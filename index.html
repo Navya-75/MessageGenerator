@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Message Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome Generator</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    
+    <select id="timeSelect">
+      <option value="morning">Good Morning</option>
+      <option value="afternoon">Good Afternoon</option>
+      <option value="evening">Good Evening</option>
+      <option value="night">Good Night</option>
+    </select>
+    
+    <button onclick="generateMessage()">Generate Message</button>
+    <p id="output"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
